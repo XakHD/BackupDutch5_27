@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Web3Modal from 'web3modal';
-import { ethers, providers } from 'ethers';
+import { Web3Provider, JsonRpcSigner } from '@ethersproject/providers';
+import { ethers } from 'ethers';
 import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
 import WalletConnectProvider from "@walletconnect/web3-provider";
 
@@ -32,12 +33,12 @@ const providerOptions = {
 };
 
 interface WalletButtonProps {
-  setProvider: (provider: providers.Web3Provider | null, signer: providers.JsonRpcSigner | null) => void;
+  setProvider: (provider: Web3Provider | null, signer: JsonRpcSigner | null) => void;
 }
 
 const WalletButton: React.FC<WalletButtonProps> = ({ setProvider }) => {
-  const [provider, setLocalProvider] = useState<providers.Web3Provider | null>(null);
-  const [signer, setLocalSigner] = useState<providers.JsonRpcSigner | null>(null);
+  const [provider, setLocalProvider] = useState<Web3Provider | null>(null);
+  const [signer, setLocalSigner] = useState<JsonRpcSigner | null>(null);
   const [address, setAddress] = useState<string | null>(null);
   const [web3Modal, setWeb3Modal] = useState<Web3Modal | null>(null);
 
