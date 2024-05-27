@@ -53,9 +53,9 @@ const featuresData: Feature[] = [
     icon: (
       <Image src="/images/box2.png" alt="Your Icon Description" width="40" height="40" />
     ),
-    title: "Fully Customizable",
+    title: "Transform Your Future with Our Coaching Services",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Discover the power of personalized coaching to unlock your full potential. Our coaching services are designed to cater to your unique needs, offering comprehensive support and guidance. Whether you're looking to advance your career, improve your personal life, or achieve specific goals, our experienced coaches are here to help you succeed. Join us today and start your journey towards a brighter future.",
   },
 
 ];
