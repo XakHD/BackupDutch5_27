@@ -5,10 +5,10 @@ const ThemeToggler = () => {
   return (
     <button
       aria-label="theme toggler"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={() => setTheme(theme === "dark" ? "dark" : "dark")}
       className="bg-gray-2 dark:bg-dark-bg flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14"
     >
-      <svg
+      {/* <svg
         viewBox="0 0 23 23"
         className="h-5 w-5 stroke-current dark:hidden md:h-6 md:w-6"
         fill="none"
@@ -36,7 +36,7 @@ const ThemeToggler = () => {
           strokeWidth="2"
           mask="url(#path-1-inside-1_977:1934)"
         />
-      </svg>
+      </svg> */}
     </button>
   );
 };
