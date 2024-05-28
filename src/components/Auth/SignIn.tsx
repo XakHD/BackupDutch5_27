@@ -37,7 +37,7 @@ const SignIn = () => {
               <p className="mb-11 text-center text-base text-body-color dark:text-body-color-dark">
                 Login to your account for a faster checkout.
               </p>
-              <button
+              {/* <button
                 onClick={() => signIn("google")}
                 className="mb-6 flex w-full items-center justify-center rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none"
               >
@@ -75,9 +75,9 @@ const SignIn = () => {
                   </svg>
                 </span>
                 Sign in with Google
-              </button>
+              </button> */}
 
-              <button
+              {/* <button
                 onClick={() => signIn("github")}
                 className="mb-6 flex w-full items-center justify-center rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary dark:hover:shadow-none"
               >
@@ -93,7 +93,7 @@ const SignIn = () => {
                   </svg>
                 </span>
                 Sign in with Github
-              </button>
+              </button> */}
               <div className="mb-8 flex items-center justify-center">
                 <span className="hidden h-[1px] w-full max-w-[70px] bg-stroke dark:bg-stroke-dark sm:block"></span>
                 <p className="w-full px-5 text-center text-base text-body-color dark:text-body-color-dark">
