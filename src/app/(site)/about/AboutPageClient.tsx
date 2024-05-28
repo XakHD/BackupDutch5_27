@@ -8,6 +8,7 @@ import Video from "@/components/Video";
 import { ethers } from 'ethers';
 import WalletButton from "@/components/AboutStyleThree/index";
 import Dashboard from "@/components/Dashboard";
+import MintNFT from '@/components/MintNFT';
 
 
 const AboutPageClient: React.FC = () => {
@@ -42,7 +43,7 @@ const AboutPageClient: React.FC = () => {
         description="Your Wallet is currently empty, this stores your nft and purchase packages"
       />
       <WalletButton setProvider={handleProviderChange} /> {/* Pass setProvider */}
-      <Video />
+      <MintNFT provider={provider} signer={signer} />
       <div className="py-16 md:py-20 lg:py-24">
         <NewsLatter />
       </div>

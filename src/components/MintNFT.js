@@ -74,7 +74,7 @@ function MintNFT({ provider, signer }) {
 
   return (
     <div>
-      <h1>Mint NFTs</h1>
+      
       <button onClick={handlePurchase}>Mint NFT</button>
       <h2>Your NFTs</h2>
       <div>
