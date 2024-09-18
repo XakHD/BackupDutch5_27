@@ -48,6 +48,12 @@ export default function RootLayout({
         <Providers>
           <ToasterContext />
           <Header />
+           {/* Full-width banner with opacity, centered content, and larger text */}
+  <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-blue-900 bg-opacity-75 z-50">
+            <div className="text-white text-6xl font-bold p-4">
+              Website Coming Soon
+            </div>
+          </div>
 
           {children}
           <Footer />
