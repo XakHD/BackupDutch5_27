@@ -5,7 +5,7 @@ import { pricingData } from "@/stripe/pricingData";
 const Pricing = () => {
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="container">
+      {/* <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
           paragraph="Purchase 1 of Dutch Uncles Packages Below!"
@@ -74,7 +74,7 @@ const Pricing = () => {
             </linearGradient>
           </defs>
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 };

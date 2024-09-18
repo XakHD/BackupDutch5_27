@@ -83,7 +83,7 @@ const PricingBox = ({ product }: { product: Price }) => {
 
   return (
     <div className="w-full">
-      <div className="relative z-10 rounded-sm bg-white px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+      {/* <div className="relative z-10 rounded-sm bg-white px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
         <div className="flex items-center justify-between">
           <h3 className="price mb-2 text-3xl font-bold text-black dark:text-white">
             $
@@ -184,7 +184,7 @@ const PricingBox = ({ product }: { product: Price }) => {
             </defs>
           </svg>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
